@@ -8,4 +8,4 @@ $router = new Router;
 $url = explode('/', ltrim($_SERVER['REQUEST_URI'], '/'));
 $router->route($url);
 
-// comment in index.php
+// comment in index.phpf
