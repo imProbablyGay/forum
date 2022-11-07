@@ -1,0 +1,30 @@
+@media screen and (max-width: 992px) {
+    header {
+        .navbar {
+            &-nav {padding-top: 10px;margin-top: 30px;}
+
+            .btn-group {
+                button {
+                    padding-left: 0;
+                }
+            }
+
+        }
+    }
+
+    .articles {padding-top: 100px;}
+    .full-article {padding-top: 100px;}
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+
+@media screen and (max-width: 576px) {
+    header {
+        .navbar {
+            a.navbar-brand {display: none;}
+        }
+    }
+}
