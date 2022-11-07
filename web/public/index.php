@@ -7,3 +7,5 @@ require 'core/Routing.php';
 $router = new Router;
 $url = explode('/', ltrim($_SERVER['REQUEST_URI'], '/'));
 $router->route($url);
+
+// the project is done
